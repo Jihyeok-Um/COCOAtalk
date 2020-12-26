@@ -1,0 +1,37 @@
+.nav__notification {
+    background-color: tomato;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    right: -15px;
+    bottom: 15px;
+}
+
+.nav__notification-position__absolute {
+    position: absolute;
+}
+
+.nav__redcircle {
+    background-color: tomato;
+    border-radius: 2.5px;
+    width: 5px;
+    height: 5px;
+}
+
+.nav__redcircle-position__absolute {
+    right: -3px;
+    bottom: 25px;
+    position: absolute;
+}
+
+
+.nav__redcircle-alpha {
+    right: -7px;
+    bottom: 30px;
+    position: absolute;
+}
