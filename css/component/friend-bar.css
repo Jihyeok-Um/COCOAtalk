@@ -18,14 +18,14 @@
 
 .friend-bar__profile__text__name {
     margin-left: 15px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
 }
  
 .friend-bar__profile__text__text {
-    margin-top: 7px;    
+    margin-top: 10px;    
     margin-left: 15px;
-    font-size: 20px;
+    font-size: 17px;
     color: rgba(0, 0, 0, 0.3);
 }
 
@@ -42,6 +42,10 @@
     color: rgba(0, 0, 0, 0.3);
 }
 
+.More__friend-bar {   
+    color: rgba(0, 0, 0, 0.8);
+}
+
 .friend-bar__column:last-child {
     display: flex;
     flex-direction: column;
@@ -51,4 +55,10 @@
 .friend-bar__subs {
     display: block;
     padding-bottom: 5px;
+}
+
+.friend-bar__profile__text__text i {
+    margin-left: 5px;
+    color: red;
+    opacity: 50%;
 }

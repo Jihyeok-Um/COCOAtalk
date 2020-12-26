@@ -1,34 +1,3 @@
-.Find__icons {
-    display: flex;
-    justify-content: space-between;
-    margin: 30px;
-}
-.Find__icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.Find__icon i {
-    font-size: 40px;
-    opacity: 80%;
-    margin-bottom: 25px;
- }
-
-.Find__icon span {
-    font-size: 20px;
-    opacity: 80%;
-}
-
- .Find__icon__exp {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
- }
-
  .Find__recommend {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
