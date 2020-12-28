@@ -15,6 +15,7 @@
 @import "screen/Find-screen.css";
 @import "screen/more-screen.css";
 @import "screen/setting-screen.css";
+@import "screen/chatting-screen.css";
 
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
