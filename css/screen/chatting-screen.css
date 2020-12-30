@@ -45,7 +45,7 @@
   }
   
   .message-row img {
-    margin-left: 20px;
+    margin-left: 15px;
     width: 50px;
     height: 50px;
     border-radius: 40%;
@@ -77,6 +77,7 @@
 
   .message__bubble__from-me {
       margin-left: 5px;
+      margin-right: 15px;
       background-color: var(--yellow);
       border-top-right-radius: 0px;
   }
@@ -90,4 +91,72 @@
   .message-row__flex-end .message__info 
   {
       flex-direction: row-reverse;
+  }
+
+  .message-input {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      padding: 10px 25px;
+      box-sizing: border-box;
+  }
+
+  .message-input__column:first-child {
+    width: 10%;
+  }
+
+  .message-input__column:last-child {
+    position: relative;
+    width: 90%;
+  }
+
+  .message-input input {
+      height: 40px;
+      width: 100%;
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      border-radius: 20px;
+  }
+
+  .message-input i {
+      opacity: 50%;
+  }
+
+  .message-input__column:last-child > i,
+  .message-input__column:last-child button {
+      position: absolute;
+      right: 0;
+      top: 15px;
+  }
+
+  .message-input__column:last-child > i {
+      right: 40px;
+  }
+
+  .message-input__column:last-child button {
+      top: 7px;
+      border: none;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      background-color: var(--yellow);
+  }
+
+  .message-input__column button i {
+      opacity: 1;
+  }
+
+  .message-input__column button:active {
+    outline: none;
+  }
+
+  .message-input__column button:focus {
+    outline: none;
+  }
+
+  .message-input__column input {
+      padding-left: 10px;
   }
