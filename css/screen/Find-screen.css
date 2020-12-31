@@ -52,7 +52,7 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    margin: 0px 25px;
+    margin-left: 25px;
 }
 
 .Openchat__contents__column h5 {
