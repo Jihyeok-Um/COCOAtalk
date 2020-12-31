@@ -1,19 +1,6 @@
-.nav__notification {
-    background-color: tomato;
-    border-radius: 15px;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    color: white;
-    font-weight: 600;
-    right: -15px;
-    bottom: 15px;
-}
-
 .nav__notification-position__absolute {
     position: absolute;
+    animation: notificationUpDown 1s ease-in-out infinite;
 }
 
 .nav__redcircle {
@@ -34,4 +21,31 @@
     right: -7px;
     bottom: 30px;
     position: absolute;
+}
+
+@keyframes notificationUpDown {
+    0% {
+        transform: none;
+    }
+    
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.nav__notification {
+    background-color: tomato;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    right: -15px;
+    bottom: 15px;
 }

@@ -40,8 +40,15 @@
     display: flex;
   }
 
-  .message-row__flex-end {
+  .message-row__to-me {
+    animation: fadeInMessageBoxLeft 1s ease-in-out forwards;
+  }
+
+  .message-row__from-me {
       justify-content: flex-end;
+      animation: fadeInMessageBoxRight 1s ease-in-out forwards;
+      animation-delay: 1s;
+      opacity: 0;
   }
   
   .message-row img {
@@ -88,7 +95,7 @@
     font-size: 14px;
   }
 
-  .message-row__flex-end .message__info 
+  .message-row__from-me .message__info 
   {
       flex-direction: row-reverse;
   }
@@ -160,3 +167,25 @@
   .message-input__column input {
       padding-left: 10px;
   }
+
+  @keyframes fadeInMessageBoxLeft {
+      from {
+        transform: translateX(-60px);
+        opacity: 0;
+      }
+      to {
+        transform: none;
+        opacity: 1;
+      }
+  }
+
+  @keyframes fadeInMessageBoxRight {
+    from {
+      transform: translateX(60px);
+      opacity: 0;
+    }
+    to {
+      transform: none;
+      opacity: 1;
+    }
+}
