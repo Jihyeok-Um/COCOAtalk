@@ -112,8 +112,19 @@
       box-sizing: border-box;
   }
 
+  .message-input:focus-within .message-input__column:first-child{
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .message-input:focus-within input{
+    width: 93vw;
+    transform: translateX(-10%);
+  }
+
   .message-input__column:first-child {
     width: 10%;
+    transition: all 0.3s ease-in-out;
   }
 
   .message-input__column:last-child {
@@ -126,6 +137,7 @@
       width: 100%;
       border: 1px solid rgba(0, 0, 0, 0.5);
       border-radius: 20px;
+      transition: all 0.3s ease-in-out;
   }
 
   .message-input i {
