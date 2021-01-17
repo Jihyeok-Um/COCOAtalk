@@ -9,6 +9,7 @@
 @import "component/redcircle.css";
 @import "component/icons-bar.css";
 @import "component/alt-header.css";
+@import "component/no-mobile.css";
 
 @import "screen/login-form.css";
 @import "screen/friend-screen.css";
